@@ -1,1 +1,74 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css");
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 100%;
+  background: white; }
+
+* {
+  position: relative; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+a:hover {
+  cursor: pointer; }
+
+.mainContainer {
+  max-width: 1280px;
+  display: block;
+  margin: 0 auto;
+  background: #f2f2f2; }
+
+.container {
+  max-width: 1280px;
+  display: block;
+  margin: 0 auto;
+  padding: 0 15px; }
+  .container::after {
+    display: block;
+    content: "";
+    clear: both; }
+
+section {
+  display: block;
+  margin: 0 auto; }
+  section::after {
+    display: block;
+    content: "";
+    clear: both; }
+  section.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9; }
+    section.header * {
+      display: block;
+      margin: 0 auto; }
+    section.header .scoreboard img,
+    section.header .mainNav img,
+    section.header .weekNav img {
+      width: 1280px; }
+  section.main {
+    padding-top: 185px; }
+    section.main * {
+      display: block;
+      margin: 0 auto; }
+    section.main img {
+      width: 1280px;
+      margin-bottom: 12px; }
+    section.main .container .leaderboard,
+    section.main .container .plays,
+    section.main .container .leagues {
+      float: left;
+      margin-right: 18px; }
+    section.main .container .leaderboard img,
+    section.main .container .leagues img {
+      width: 336px; }
+    section.main .container .plays img {
+      width: 542px; }
+    section.main .container .leagues {
+      margin-right: 0; }
