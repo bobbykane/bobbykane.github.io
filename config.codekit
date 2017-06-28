@@ -11,13 +11,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/images\/leaderboard.png": {
+	"\/images\/leaderboard-loggedout.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 273905,
-		"inputAbbreviatedPath": "\/images\/leaderboard.png",
-		"outputAbbreviatedPath": "\/images\/leaderboard.png",
+		"inputAbbreviatedPath": "\/images\/leaderboard-loggedout.png",
+		"outputAbbreviatedPath": "\/images\/leaderboard-loggedout.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Main Feed All matchups.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 304306,
+		"inputAbbreviatedPath": "\/images\/Main Feed All matchups.png",
+		"outputAbbreviatedPath": "\/images\/Main Feed All matchups.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -33,6 +44,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Main Feed Specific League.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 321077,
+		"inputAbbreviatedPath": "\/images\/Main Feed Specific League.png",
+		"outputAbbreviatedPath": "\/images\/Main Feed Specific League.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Main Feed Your Leagues (None).png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81218,
+		"inputAbbreviatedPath": "\/images\/Main Feed Your Leagues (None).png",
+		"outputAbbreviatedPath": "\/images\/Main Feed Your Leagues (None).png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/main-navigation.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -40,6 +73,50 @@
 		"initialSize": 26350,
 		"inputAbbreviatedPath": "\/images\/main-navigation.png",
 		"outputAbbreviatedPath": "\/images\/main-navigation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Modal - Default Done.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133520,
+		"inputAbbreviatedPath": "\/images\/Modal - Default Done.png",
+		"outputAbbreviatedPath": "\/images\/Modal - Default Done.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Modal - Default yahoo prompt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 759128,
+		"inputAbbreviatedPath": "\/images\/Modal - Default yahoo prompt.png",
+		"outputAbbreviatedPath": "\/images\/Modal - Default yahoo prompt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Modal - Default.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98701,
+		"inputAbbreviatedPath": "\/images\/Modal - Default.png",
+		"outputAbbreviatedPath": "\/images\/Modal - Default.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Right Logged in with Teams Collapsed.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 204552,
+		"inputAbbreviatedPath": "\/images\/Right Logged in with Teams Collapsed.png",
+		"outputAbbreviatedPath": "\/images\/Right Logged in with Teams Collapsed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -117,6 +194,17 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
+		},
+	"\/scripts\/min\/nf-fantasyLIVE-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts\/min\/nf-fantasyLIVE-min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/min\/nf-fantasyLIVE-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/scripts\/nf-fantasyLIVE.js": {
 		"fileType": 64,

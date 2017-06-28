@@ -1,7 +1,16 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css");
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.fadeIn {
+  animation-name: fadeIn; }
+
 html,
 body {
   width: 100%;
+  height: 100%;
   margin: 0px;
   padding: 0px;
   font-size: 100%;
@@ -13,14 +22,31 @@ body {
 *, *:before, *:after {
   box-sizing: border-box; }
 
-a:hover {
-  cursor: pointer; }
+a:hover,
+span.close {
+  cursor: pointer !important; }
+
+.overlay.show {
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99; }
 
 .mainContainer {
   max-width: 1280px;
   display: block;
   margin: 0 auto;
   background: #f2f2f2; }
+  .mainContainer::after {
+    display: block;
+    content: "";
+    clear: both; }
 
 .container {
   max-width: 1280px;
@@ -60,15 +86,118 @@ section {
     section.main img {
       width: 1280px;
       margin-bottom: 12px; }
-    section.main .container .leaderboard,
-    section.main .container .plays,
-    section.main .container .leagues {
-      float: left;
-      margin-right: 18px; }
-    section.main .container .leaderboard img,
-    section.main .container .leagues img {
-      width: 336px; }
-    section.main .container .plays img {
-      width: 542px; }
-    section.main .container .leagues {
-      margin-right: 0; }
+    section.main .container {
+      height: 1440px; }
+      section.main .container .leaderboard,
+      section.main .container .plays,
+      section.main .container .leagues {
+        float: left;
+        display: block;
+        margin-right: 18px;
+        height: 100%;
+        overflow: auto; }
+      section.main .container .leaderboard,
+      section.main .container .leagues {
+        width: 336px; }
+      section.main .container .leaderboard {
+        background: url("/images/leaderboard-loggedout.png") no-repeat;
+        background-size: 336px auto; }
+      section.main .container .plays {
+        width: 542px;
+        animation-duration: .5s;
+        animation-fill-mode: both; }
+        section.main .container .plays.AllNFL {
+          background: url("/images/Main Feed All NFL.png") no-repeat;
+          background-size: 542px auto; }
+        section.main .container .plays.YourLeaguesNone {
+          background: url("/images/Main Feed Your Leagues (None).png") no-repeat;
+          background-size: 542px auto; }
+        section.main .container .plays.YourLeaguesAllMatchups {
+          background: url("/images/Main Feed All matchups.png") no-repeat;
+          background-size: 542px auto; }
+        section.main .container .plays.YourLeaguesSpecific {
+          background: url("/images/Main Feed Specific League.png") no-repeat;
+          background-size: 542px auto; }
+      section.main .container .leagues {
+        margin-right: 0;
+        background: url("/images/Right Logged Out.png") no-repeat;
+        background-size: 336px auto; }
+        section.main .container .leagues.loggedIn {
+          background: url("/images/Right Logged in with Teams Collapsed.png") no-repeat;
+          background-size: 336px auto; }
+      section.main .container .hotspots a {
+        display: block;
+        position: absolute;
+        z-index: 9;
+        width: 36px;
+        height: 36px;
+        background: rgba(189, 16, 224, 0.1); }
+        section.main .container .hotspots a.Plays-YourLeaguesNone, section.main .container .hotspots a.Plays-YourLeaguesAll {
+          left: 372px;
+          top: 36px;
+          height: 50px;
+          width: 108px; }
+        section.main .container .hotspots a.Plays-AllNFL {
+          left: 480px;
+          top: 36px;
+          height: 50px;
+          width: 72px; }
+        section.main .container .hotspots a.Plays-YourLeaguesSpecific {
+          left: 372px;
+          top: 104px;
+          height: 36px;
+          width: 235px; }
+        section.main .container .hotspots a.ImportLeagues {
+          left: 945px;
+          top: 259px;
+          height: 58px;
+          width: 274px; }
+
+.importModal {
+  animation-duration: .5s;
+  animation-fill-mode: both; }
+  .importModal .hotspots a {
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: rgba(189, 16, 224, 0.1); }
+    .importModal .hotspots a.close {
+      right: 0px;
+      top: 0px; }
+    .importModal .hotspots a.importYahooButton {
+      left: 300px;
+      top: 163px;
+      width: 260px;
+      height: 58px; }
+    .importModal .hotspots a.finishYahoo {
+      left: 390px;
+      top: 290px;
+      width: 280px;
+      height: 60px; }
+  .importModal.show {
+    width: 768px;
+    height: 528px;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999; }
+  .importModal.default {
+    background: url("/images/Modal - Default.png") no-repeat;
+    background-size: 768px auto; }
+    .importModal.default .hotspots .finishYahoo {
+      display: none; }
+  .importModal.logInYahoo {
+    background: url("/images/Modal - Default yahoo prompt.png") no-repeat;
+    background-size: 768px auto; }
+    .importModal.logInYahoo .hotspots .importYahooButton {
+      display: none; }
+  .importModal.finishedYahoo {
+    background: url("/images/Modal - Default Done.png") no-repeat;
+    background-size: 768px auto; }
+    .importModal.finishedYahoo .hotspots .importYahooButton,
+    .importModal.finishedYahoo .hotspots .finishYahoo {
+      display: none; }
