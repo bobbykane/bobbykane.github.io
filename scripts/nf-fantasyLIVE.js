@@ -50,7 +50,7 @@ $(".importModal a.finishYahoo").click(function(){
     if ( loggedIn === true ) {
         $("section.main .leagues").addClass("loggedIn");
         $("a.ImportLeagues, a.Plays-YourLeaguesNone").remove();
-        $("section.main .plays").addClass("loggedInAllMatchups");
+        $("section.main .plays").addClass("YourLeaguesAllMatchups");
         $("a.Plays-YourLeaguesAll").css("display","block");
 
     }
