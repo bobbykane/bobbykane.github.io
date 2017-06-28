@@ -125,6 +125,12 @@ section {
         section.main .container .leagues.loggedIn {
           background: url("/images/Right Logged in with Teams Collapsed.png") no-repeat;
           background-size: 336px auto; }
+        section.main .container .leagues.specific {
+          background: url("/images/Right Logged in specific.png") no-repeat;
+          background-size: 336px auto; }
+        section.main .container .leagues.specificExpanded {
+          background: url("/images/Right Logged in specific expanded.png") no-repeat;
+          background-size: 336px auto; }
       section.main .container .hotspots a {
         display: block;
         position: absolute;
@@ -152,6 +158,26 @@ section {
           top: 259px;
           height: 58px;
           width: 274px; }
+        section.main .container .hotspots a.Right-SpecificTeam {
+          left: 932px;
+          top: 100px;
+          height: 130px;
+          width: 300px; }
+        section.main .container .hotspots a.Right-SpecificTeamExpanded {
+          left: 932px;
+          top: 328px;
+          height: 44px;
+          width: 300px; }
+        section.main .container .hotspots a.Right-BacktoLeagues {
+          left: 932px;
+          top: 36px;
+          height: 50px;
+          width: 60px; }
+        section.main .container .hotspots a.LeagueSettings {
+          left: 1190px;
+          top: 0px;
+          height: 50px;
+          width: 60px; }
 
 .importModal {
   animation-duration: .5s;

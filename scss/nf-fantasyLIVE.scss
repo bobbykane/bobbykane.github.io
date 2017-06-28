@@ -172,6 +172,16 @@ section {
                     background: url("/images/Right Logged in with Teams Collapsed.png") no-repeat;
                     background-size: 336px auto;
                 }
+
+                &.specific {
+                    background: url("/images/Right Logged in specific.png") no-repeat;
+                    background-size: 336px auto;
+                }
+
+                &.specificExpanded {
+                    background: url("/images/Right Logged in specific expanded.png") no-repeat;
+                    background-size: 336px auto;
+                }
             }
 
             .hotspots {
@@ -208,6 +218,30 @@ section {
                         top: 259px;
                         height: 58px;
                         width: 274px;
+                    }
+                    &.Right-SpecificTeam {
+                        left: 932px;
+                        top: 100px;
+                        height: 130px;
+                        width: 300px;
+                    }
+                    &.Right-SpecificTeamExpanded {
+                        left: 932px;
+                        top: 328px;
+                        height: 44px;
+                        width: 300px;
+                    }
+                    &.Right-BacktoLeagues {
+                        left: 932px;
+                        top: 36px;
+                        height: 50px;
+                        width: 60px;
+                    }
+                    &.LeagueSettings {
+                        left: 1190px;
+                        top: 0px;
+                        height: 50px;
+                        width: 60px;
                     }
                 }
             }

@@ -110,6 +110,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/Right Logged in specific expanded.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233302,
+		"inputAbbreviatedPath": "\/images\/Right Logged in specific expanded.png",
+		"outputAbbreviatedPath": "\/images\/Right Logged in specific expanded.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/Right Logged in specific.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 202466,
+		"inputAbbreviatedPath": "\/images\/Right Logged in specific.png",
+		"outputAbbreviatedPath": "\/images\/Right Logged in specific.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/Right Logged in with Teams Collapsed.png": {
 		"fileType": 32768,
 		"ignore": 0,
