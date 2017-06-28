@@ -20,7 +20,7 @@
 		"outputAbbreviatedPath": "\/images\/leaderboard-loggedout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Main Feed All matchups.png": {
 		"fileType": 32768,
@@ -31,7 +31,7 @@
 		"outputAbbreviatedPath": "\/images\/Main Feed All matchups.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Main Feed All NFL.png": {
 		"fileType": 32768,
@@ -42,7 +42,7 @@
 		"outputAbbreviatedPath": "\/images\/Main Feed All NFL.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Main Feed Specific League.png": {
 		"fileType": 32768,
@@ -53,7 +53,7 @@
 		"outputAbbreviatedPath": "\/images\/Main Feed Specific League.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Main Feed Your Leagues (None).png": {
 		"fileType": 32768,
@@ -64,7 +64,7 @@
 		"outputAbbreviatedPath": "\/images\/Main Feed Your Leagues (None).png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/main-navigation.png": {
 		"fileType": 32768,
@@ -75,7 +75,7 @@
 		"outputAbbreviatedPath": "\/images\/main-navigation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Modal - Default Done.png": {
 		"fileType": 32768,
@@ -86,7 +86,7 @@
 		"outputAbbreviatedPath": "\/images\/Modal - Default Done.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Modal - Default yahoo prompt.png": {
 		"fileType": 32768,
@@ -97,7 +97,7 @@
 		"outputAbbreviatedPath": "\/images\/Modal - Default yahoo prompt.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Modal - Default.png": {
 		"fileType": 32768,
@@ -108,7 +108,7 @@
 		"outputAbbreviatedPath": "\/images\/Modal - Default.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged in specific expanded.png": {
 		"fileType": 32768,
@@ -119,7 +119,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific expanded.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged in specific.png": {
 		"fileType": 32768,
@@ -130,7 +130,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged in with Teams Collapsed.png": {
 		"fileType": 32768,
@@ -141,7 +141,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in with Teams Collapsed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged Out.png": {
 		"fileType": 32768,
@@ -152,7 +152,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged Out.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/scoreboard.png": {
 		"fileType": 32768,
@@ -163,7 +163,7 @@
 		"outputAbbreviatedPath": "\/images\/scoreboard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/week-navigation-header.png": {
 		"fileType": 32768,
@@ -174,7 +174,7 @@
 		"outputAbbreviatedPath": "\/images\/week-navigation-header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/week-navigation-links.png": {
 		"fileType": 32768,
@@ -185,7 +185,7 @@
 		"outputAbbreviatedPath": "\/images\/week-navigation-links.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
