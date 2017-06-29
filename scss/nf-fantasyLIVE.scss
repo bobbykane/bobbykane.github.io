@@ -191,8 +191,8 @@ section {
                     z-index: 9;
                     width: 36px;
                     height: 36px;
-                    background: rgba(189,16,224,.1);
-                    //background: transparent;
+                    //background: rgba(189,16,224,.1);
+                    background: transparent;
 
                     &.Plays-YourLeaguesNone,
                     &.Plays-YourLeaguesAll {
@@ -258,7 +258,8 @@ section {
             position: absolute;
             width: 60px;
             height: 60px;
-            background: rgba(189,16,224,.1);
+            //background: rgba(189,16,224,.1);
+            background: transparent;
             
             &.close {
                 right: 0px;

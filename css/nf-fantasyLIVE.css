@@ -137,7 +137,7 @@ section {
         z-index: 9;
         width: 36px;
         height: 36px;
-        background: rgba(189, 16, 224, 0.1); }
+        background: transparent; }
         section.main .container .hotspots a.Plays-YourLeaguesNone, section.main .container .hotspots a.Plays-YourLeaguesAll {
           left: 372px;
           top: 36px;
@@ -187,7 +187,7 @@ section {
     position: absolute;
     width: 60px;
     height: 60px;
-    background: rgba(189, 16, 224, 0.1); }
+    background: transparent; }
     .importModal .hotspots a.close {
       right: 0px;
       top: 0px; }
