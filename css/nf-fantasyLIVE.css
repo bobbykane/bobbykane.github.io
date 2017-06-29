@@ -139,6 +139,7 @@ section {
         height: 36px;
         background: transparent; }
         section.main .container .hotspots a:hover {
+          transition: all .15s ease-in-out;
           background: rgba(255, 255, 255, 0.25); }
         section.main .container .hotspots a.Plays-YourLeaguesNone, section.main .container .hotspots a.Plays-YourLeaguesAll {
           left: 372px;
@@ -191,6 +192,7 @@ section {
     height: 60px;
     background: transparent; }
     .importModal .hotspots a:hover {
+      transition: all .15s ease-in-out;
       background: rgba(255, 255, 255, 0.25); }
     .importModal .hotspots a.close {
       right: 0px;
