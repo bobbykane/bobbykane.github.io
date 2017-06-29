@@ -194,6 +194,10 @@ section {
                     //background: rgba(189,16,224,.1);
                     background: transparent;
 
+                    &:hover {
+                        background: rgba(255, 255, 255, .25);
+                    }
+
                     &.Plays-YourLeaguesNone,
                     &.Plays-YourLeaguesAll {
                         left: 372px;
@@ -260,6 +264,10 @@ section {
             height: 60px;
             //background: rgba(189,16,224,.1);
             background: transparent;
+
+            &:hover {
+                background: rgba(255, 255, 255, .25);
+            }
             
             &.close {
                 right: 0px;
