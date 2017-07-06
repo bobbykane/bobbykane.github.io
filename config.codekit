@@ -119,7 +119,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific expanded.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/Right Logged in specific.png": {
 		"fileType": 32768,
@@ -130,7 +130,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/Right Logged in with Teams Collapsed.png": {
 		"fileType": 32768,
