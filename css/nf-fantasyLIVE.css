@@ -118,6 +118,9 @@ section {
         section.main .container .plays.YourLeaguesSpecific {
           background: url("/images/Main Feed Specific League.png") no-repeat;
           background-size: 542px auto; }
+        section.main .container .plays.YourLeaguesOpp {
+          background: url("/images/Main Feed All matchups opp.png") no-repeat;
+          background-size: 542px auto; }
       section.main .container .leagues {
         margin-right: 0;
         background: url("/images/Right Logged Out.png") no-repeat;
@@ -156,11 +159,21 @@ section {
           top: 104px;
           height: 36px;
           width: 235px; }
+        section.main .container .hotspots a.Plays-ShowOpp {
+          left: 660px;
+          top: 150px;
+          height: 32px;
+          width: 224px; }
         section.main .container .hotspots a.ImportLeagues {
           left: 925px;
-          top: 181px;
+          top: 261px;
           height: 58px;
           width: 314px; }
+        section.main .container .hotspots a.ImportLeaguesMiddle {
+          left: 370px;
+          top: 135px;
+          height: 40px;
+          width: 140px; }
         section.main .container .hotspots a.Right-SpecificTeam {
           left: 932px;
           top: 100px;
@@ -168,14 +181,14 @@ section {
           width: 300px; }
         section.main .container .hotspots a.Right-SpecificTeamExpanded {
           left: 932px;
-          top: 381px;
+          top: 366px;
           height: 44px;
           width: 300px; }
         section.main .container .hotspots a.Right-BacktoLeagues {
           left: 932px;
-          top: 36px;
+          top: 0px;
           height: 50px;
-          width: 60px; }
+          width: 100px; }
         section.main .container .hotspots a.LeagueSettings {
           left: 1190px;
           top: 0px;
@@ -198,15 +211,20 @@ section {
       right: 0px;
       top: 0px; }
     .importModal .hotspots a.importYahooButton {
-      left: 300px;
+      left: 270px;
       top: 163px;
-      width: 260px;
+      width: 320px;
       height: 58px; }
     .importModal .hotspots a.finishYahoo {
       left: 390px;
       top: 290px;
       width: 280px;
       height: 60px; }
+    .importModal .hotspots a.FanDuel {
+      left: 0px;
+      top: 315px;
+      width: 90px;
+      height: 90px; }
   .importModal.show {
     width: 768px;
     height: 528px;
@@ -233,3 +251,6 @@ section {
     .importModal.finishedYahoo .hotspots .importYahooButton,
     .importModal.finishedYahoo .hotspots .finishYahoo {
       display: none; }
+  .importModal.fd {
+    background: url("/images/Modal - Default Done FD.png") no-repeat;
+    background-size: 768px auto; }

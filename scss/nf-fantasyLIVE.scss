@@ -161,6 +161,11 @@ section {
                     background: url("/images/Main Feed Specific League.png") no-repeat;
                     background-size: 542px auto;
                 }
+
+                &.YourLeaguesOpp {
+                    background: url("/images/Main Feed All matchups opp.png") no-repeat;
+                    background-size: 542px auto;
+                }
             }
 
             .leagues {
@@ -218,11 +223,23 @@ section {
                         height: 36px;
                         width: 235px;
                     }
+                    &.Plays-ShowOpp {
+                        left: 660px;
+                        top: 150px;
+                        height: 32px;
+                        width: 224px;
+                    }
                     &.ImportLeagues {
                         left: 925px;
-                        top: 181px;
+                        top: 261px;
                         height: 58px;
                         width: 314px;
+                    }
+                    &.ImportLeaguesMiddle {
+                        left: 370px;
+                        top: 135px;
+                        height: 40px;
+                        width: 140px;
                     }
                     &.Right-SpecificTeam {
                         left: 932px;
@@ -232,15 +249,15 @@ section {
                     }
                     &.Right-SpecificTeamExpanded {
                         left: 932px;
-                        top: 381px;
+                        top: 366px;
                         height: 44px;
                         width: 300px;
                     }
                     &.Right-BacktoLeagues {
                         left: 932px;
-                        top: 36px;
+                        top: 0px;
                         height: 50px;
-                        width: 60px;
+                        width: 100px;
                     }
                     &.LeagueSettings {
                         left: 1190px;
@@ -276,9 +293,9 @@ section {
                 top: 0px;
             }
             &.importYahooButton {
-                left: 300px;
+                left: 270px;
                 top: 163px;
-                width: 260px;
+                width: 320px;
                 height: 58px;
             }
             &.finishYahoo {
@@ -286,6 +303,12 @@ section {
                 top: 290px;
                 width: 280px;
                 height: 60px;
+            }
+            &.FanDuel {
+                left: 0px;
+                top: 315px;
+                width: 90px;
+                height: 90px;
             }
         }
     }
@@ -325,5 +348,10 @@ section {
         .hotspots .finishYahoo {
             display: none;
         }
+    }
+
+    &.fd {
+        background: url("/images/Modal - Default Done FD.png") no-repeat;
+        background-size: 768px auto;
     }
 }

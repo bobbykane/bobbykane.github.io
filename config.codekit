@@ -22,6 +22,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/Main Feed All matchups opp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 403584,
+		"inputAbbreviatedPath": "\/images\/Main Feed All matchups opp.png",
+		"outputAbbreviatedPath": "\/images\/Main Feed All matchups opp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/Main Feed All matchups.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -77,6 +88,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/Modal - Default Done FD.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160569,
+		"inputAbbreviatedPath": "\/images\/Modal - Default Done FD.png",
+		"outputAbbreviatedPath": "\/images\/Modal - Default Done FD.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/Modal - Default Done.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -110,6 +132,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/Right Logged in specific dropdown.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179233,
+		"inputAbbreviatedPath": "\/images\/Right Logged in specific dropdown.png",
+		"outputAbbreviatedPath": "\/images\/Right Logged in specific dropdown.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/Right Logged in specific expanded.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -119,7 +152,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific expanded.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged in specific.png": {
 		"fileType": 32768,
@@ -130,7 +163,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in specific.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged in with Teams Collapsed.png": {
 		"fileType": 32768,
@@ -141,7 +174,7 @@
 		"outputAbbreviatedPath": "\/images\/Right Logged in with Teams Collapsed.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/Right Logged Out.png": {
 		"fileType": 32768,

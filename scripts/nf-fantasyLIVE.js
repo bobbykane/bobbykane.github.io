@@ -4,24 +4,30 @@ function removeFadeIn() {
     }, 600);
 }
 
-$("a.Plays-YourLeaguesAll, a.Plays-YourLeaguesSpecific, a.Right-SpecificTeam, a.Right-SpecificTeamExpanded, a.Right-BacktoLeagues, a.LeagueSettings").css("display","none");
+$("a.Plays-YourLeaguesAll, a.Plays-YourLeaguesSpecific, a.Plays-ShowOpp, a.Right-SpecificTeam, a.Right-SpecificTeamExpanded, a.Right-BacktoLeagues, a.LeagueSettings, a.ImportLeaguesMiddle, a.FanDuel").css("display","none");
 
 $("a.Plays-YourLeaguesNone").click(function(){
     $("section.main .plays").attr("class", " ").addClass("plays YourLeaguesNone fadeIn");
     removeFadeIn();
+    $("a.ImportLeaguesMiddle").css("display", "block");
 });
 
 $("a.Plays-YourLeaguesAll").click(function(){
     $("section.main .plays").attr("class", " ").addClass("plays YourLeaguesAllMatchups fadeIn");
     removeFadeIn();
-    $("a.Plays-YourLeaguesSpecific").css("display", "block");
+    $("a.Plays-YourLeaguesSpecific, a.Plays-ShowOpp").css("display", "block");
 });
 
 $("a.Plays-YourLeaguesSpecific").click(function(){
     $("section.main .plays").attr("class", " "). addClass("plays YourLeaguesSpecific fadeIn");
+    $("a.Plays-ShowOpp").css("display", "none");
 });
 
-$("a.ImportLeagues").click(function(){
+$("a.Plays-ShowOpp").click(function(){
+    $("section.main .plays").attr("class", "plays YourLeaguesOpp");
+});
+
+$("a.ImportLeagues, a.ImportLeaguesMiddle").click(function(){
     $(".importModal").attr("class", "importModal show default fadeIn");
     $(".overlay").addClass("show fadeIn");
 });
@@ -41,7 +47,6 @@ $(".importModal a.importYahooButton").click(function(){
 });
 
 var loggedIn = null;
-console.log(loggedIn);
 
 $(".importModal a.finishYahoo").click(function(){
     $(".importModal").attr("class", "importModal show finishedYahoo");
@@ -49,17 +54,23 @@ $(".importModal a.finishYahoo").click(function(){
 
     if ( loggedIn === true ) {
         $("section.main .leagues").addClass("loggedIn");
-        $("a.ImportLeagues, a.Plays-YourLeaguesNone").remove();
+        $("a.ImportLeagues, a.ImportLeaguesMiddle, a.Plays-YourLeaguesNone").remove();
         $("section.main .plays").addClass("YourLeaguesAllMatchups");
-        $("a.Plays-YourLeaguesAll, a.Plays-YourLeaguesSpecific, a.Right-SpecificTeam, a.LeagueSettings").css("display","block");
+        $("a.Plays-YourLeaguesAll, a.Plays-YourLeaguesSpecific, a.Plays-ShowOpp, a.Right-SpecificTeam, a.LeagueSettings, a.FanDuel").css("display","block");
 
     }
 });
 
+$("a.FanDuel").click(function(){
+    $(".importModal").attr("class", "importModal show fd");
+    $("a.importYahooButton, a.finishYahoo").css("display", "none");
+});
+
 $("a.Plays-AllNFL").click(function(){
+    $("a.ImportLeaguesMiddle").css("display", "none");
     $("section.main .plays").attr("class", " ").addClass("plays AllNFL fadeIn");
     if ( !(loggedIn == 'null') ) {
-        $("a.Plays-YourLeaguesSpecific").css("display","none");
+        $("a.Plays-YourLeaguesSpecific, a.Plays-ShowOpp").css("display","none");
     }
     removeFadeIn();
 });
